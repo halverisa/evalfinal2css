@@ -5,28 +5,42 @@ body{
 header{
   background-color: #5b7989;
   width: 100%;
+  height: 100px;
+  margin-bottom: 0px;
 }
 .cabecera {
-
   width: 100%;
+  height: 100%;
 }
 .titulo{
   background-color: green;
   width: 50%;
-  /*float: left; */
-
+  height: 100%;
+  float: left;
 }
 .titulo h1{
   padding-top: 10px;
   color: white;
   text-shadow: 1px 2px 3px #02010a;
+
 }
 .menuprincipal {
+  background-color: yellow;
   padding-top: 10px;
-  float: right;
+  width: 50%;
+
+  float: left;
 
 }
-
+.contenido{
+  clear:both;
+  margin-top: 0px;
+}
+.imagesecundaria{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
 .imagecentral{
   background-color: #82c3a6;
 }
@@ -38,11 +52,23 @@ header{
 #imgcentral img{
   width: 60%;
 }
-
+.imgsecundariaizq{
+  background-color: blue;
+  width: 50%;
+  float: left;
+}
+.imgsecundariader{
+  background-color: red;
+  width: 50%;
+  float: left;
 }
 h2{
   color: white;
 }
 footer{
+  clear: both;
   background-color: #B9C3F9;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
