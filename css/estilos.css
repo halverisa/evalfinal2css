@@ -60,6 +60,7 @@ nav{
   width: 100%;
   height: 400px;
   background-color: #d5c75f;
+  padding-bottom: 20px;
 }
 .imgsecundariaizq{
   width: 50%;
@@ -74,8 +75,8 @@ nav{
       }
       .imgsecundariaizq img:hover {
         transform: rotate(-10deg);
-        -webkit-box-shadow: 8px 12px 9px #82c3a6;
-        -moz-box-shadow: 8px 12px 9px #82c3a6;
+        -webkit-box-shadow: 8px 10px 9px #82c3a6;
+        -moz-box-shadow: 8px 10px 9px #82c3a6;
       }
       .imgsecundariaizq a{
         color: blue;
@@ -93,20 +94,33 @@ nav{
       }
       .imgsecundariader img:hover{
         transform: translate(20px,5px);
-        -webkit-box-shadow: 8px 12px 9px #82c3a6;
-        -moz-box-shadow: 8px 12px 9px #82c3a6;
+        -webkit-box-shadow: 8px 10px 9px #82c3a6;
+        -moz-box-shadow: 8px 10px 9px #82c3a6;
       }
       .imgsecundariader a{
         color: blue;
       }
-footer h2{
-  color: white;
-}
 
 footer{
   clear: both;
   background-color: #B9C3F9;
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
+  height: 200px;
+}
+
+div[title$="footer"]{
+  background-color: #C6d5c5;
+  text-align: center;
+  float: left;
+  width: 25%;
   height: 100%;
+}
+div[title$="footer"] p{
+  font-size: 1vw;
+  color: blue;
+}
+div[title$="footer"] h2{
+  font-size: 2vw;
+  color: white;
 }
