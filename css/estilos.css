@@ -6,65 +6,103 @@ header{
   background-color: #5b7989;
   width: 100%;
   height: 100px;
-  margin-bottom: 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .cabecera {
   width: 100%;
   height: 100%;
 }
 .titulo{
-  background-color: green;
   width: 50%;
   height: 100%;
   float: left;
 }
 .titulo h1{
-  padding-top: 10px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 15px;
   color: white;
   text-shadow: 1px 2px 3px #02010a;
-
+  font-size: 3vw;
 }
 .menuprincipal {
-  background-color: yellow;
-  padding-top: 10px;
   width: 50%;
-
+  height: 100%;
   float: left;
-
 }
+nav{
+  margin-top: 50px;
+  margin-right: 30px;
+  text-align: right;
+  font-size: 2vh;
+}
+      nav a:active, a:visited {
+        text-decoration: none;
+        color: white;
+      }
+
 .contenido{
   clear:both;
   margin-top: 0px;
 }
-.imagesecundaria{
-  width: 100%;
-  height: 500px;
-  background-color: white;
-}
 .imagecentral{
   background-color: #82c3a6;
 }
-
 #imgcentral {
   text-align: center;
 }
-
 #imgcentral img{
-  width: 60%;
+  margin:20px;
+  width: 70%;
+}
+.imagesecundaria{
+  width: 100%;
+  height: 400px;
+  background-color: #d5c75f;
 }
 .imgsecundariaizq{
-  background-color: blue;
   width: 50%;
+  height: 100%;
   float: left;
+  text-align: center;
 }
+      .imgsecundariaizq img{
+        margin: 20px;
+        width: 70%;
+        border: 2px solid black;
+      }
+      .imgsecundariaizq img:hover {
+        transform: rotate(-10deg);
+        -webkit-box-shadow: 8px 12px 9px #82c3a6;
+        -moz-box-shadow: 8px 12px 9px #82c3a6;
+      }
+      .imgsecundariaizq a{
+        color: blue;
+      }
 .imgsecundariader{
-  background-color: red;
   width: 50%;
+  height: 100%;
   float: left;
+  text-align: center;
 }
-h2{
+      .imgsecundariader img{
+        margin: 20px;
+        width: 83%;
+        border: 2px solid black;
+      }
+      .imgsecundariader img:hover{
+        transform: translate(20px,5px);
+        -webkit-box-shadow: 8px 12px 9px #82c3a6;
+        -moz-box-shadow: 8px 12px 9px #82c3a6;
+      }
+      .imgsecundariader a{
+        color: blue;
+      }
+footer h2{
   color: white;
 }
+
 footer{
   clear: both;
   background-color: #B9C3F9;
