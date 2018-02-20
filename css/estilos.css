@@ -1,6 +1,14 @@
+
+@font-face{
+   font-family: "DancingScript";
+   font-style: normal;
+   font-weight: normal;
+   src: url(fuentes/Dancing_Script-Bold.ttf);
+ }
 body{
-  background-color: black;
-  margin: 50px;
+  background-color: #02010a;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 header{
   background-color: #5b7989;
@@ -8,6 +16,13 @@ header{
   height: 100px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+img{
+  -webkit-box-shadow: 2px 2px 2px #02010a
+}
+.contenido {
+  width: 900px;
+  text-align: center;
 }
 .cabecera {
   width: 100%;
@@ -20,11 +35,12 @@ header{
 }
 .titulo h1{
   text-align: left;
+  font-family: sans-serif;
   margin-top: 20px;
   margin-left: 15px;
   color: white;
   text-shadow: 1px 2px 3px #02010a;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .menuprincipal {
   width: 50%;
@@ -103,14 +119,16 @@ nav{
 
 footer{
   clear: both;
-  background-color: #B9C3F9;
+  background-color: #C6d5c5;
   padding-top: 20px;
   width: 100%;
   height: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 div[title$="footer"]{
-  background-color: #C6d5c5;
+
   text-align: center;
   float: left;
   width: 25%;
@@ -122,5 +140,6 @@ div[title$="footer"] p{
 }
 div[title$="footer"] h2{
   font-size: 2vw;
+  font-family: "DancingScript";
   color: white;
 }
