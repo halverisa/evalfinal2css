@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 900px) {
 body{
   background-color: #02010a;
   margin-left: 120px;
@@ -167,11 +167,12 @@ div[class$="img-1"] img{
   -webkit-filter: blur(10px);
   filter:blur(10px);
 }
-div[class$="img-2"] and div[class$="img-4"]img{
+.img-2, .img-4, .img-6 img{
+  filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  filter:grayscale(100%);
 }
 div[class$="img-3"] img{
   -webkit-filter: sepia(90%);
   filter:sepia(90%;
+  }
   }
