@@ -176,7 +176,7 @@ div[class$="img-1"] img{
     @media (max-width: 899px)
       {
             body{
-              background-color:red;
+              background-color:#02010a;
               margin-left: 5px;
               margin-right: 5px;
               font-family: 'Dancing Script';
@@ -184,12 +184,13 @@ div[class$="img-1"] img{
             header{
               background-color: #5b7989;
               width: 100%;
-
               border-top-right-radius: 10px;
               border-top-left-radius: 10px;
             }
             .contenido {
               width: 100%;
+              height: auto;
+              margin:auto;
               text-align: center;
             }
             .cabecera{
